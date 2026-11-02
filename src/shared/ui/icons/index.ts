@@ -1,7 +1,1 @@
-export {
-  BurgerIcon,
-  CloseIcon,
-  YoutubeIcon,
-  VkIcon,
-  TelegramIcon,
-} from './Icons';
+export * from './Icons';
