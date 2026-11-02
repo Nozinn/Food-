@@ -1,8 +1,14 @@
+export interface DishCategory {
+  id: string;
+  title: string;
+}
+
 export interface Dish {
   id: string;
   title: string;
   description?: string;
   price: number;
+  priceFrom?: boolean;
   weight?: string;
   image: string;
   category: string;
