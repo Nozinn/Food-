@@ -12,9 +12,9 @@ export const SectionLabel: React.FC<SectionLabelProps> = ({
   className,
 }) => {
   return (
-    <div className={cn('flex items-center gap-4 text-xs tracking-[0.25em] font-semibold text-[#222222] uppercase select-none', className)}>
+    <div className={cn('flex items-center gap-[30px] font-circe text-xl font-bold leading-[1.4] text-[#333333] uppercase select-none', className)}>
       <span>{title}</span>
-      <span className="inline-block w-8 sm:w-12 h-[1px] bg-[#B39B7C]" />
+      <span className="inline-block w-[60px] h-[3px] bg-[#B59571]" />
     </div>
   );
 };
