@@ -17,7 +17,7 @@ export const AppRouter: React.FC = () => {
         <Sidebar />
 
         {/* Main Content shifted by sidebar width */}
-        <div className="pl-16 sm:pl-20 transition-all duration-300">
+        <div className="pt-16 min-[769px]:pt-0 min-[769px]:pl-[120px]">
           <Routes>
             <Route path={ROUTES.HOME} element={<HomePage />} />
             <Route path={ROUTES.DELIVERY} element={<DeliveryPage />} />
